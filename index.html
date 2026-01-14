@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart-X - Solutions Technologiques</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav container">
+    <div class="logo">
+      <img src="assets/logo.png" alt="Smart-X Logo" class="logo-img">
+      <span class="logo-text">Smart-X</span>
+    </div>
+    <div class="lang-switcher">
+      <button onclick="setLang('fr')" class="lang-btn active">FR</button>
+      <button onclick="setLang('en')" class="lang-btn">EN</button>
+    </div>
+  </div>
+
+  <div class="hero container">
+    <h1 class="fade-in"
+      data-fr="Startup technologique & solutions numériques"
+      data-en="Technology startup & digital solutions">
+    </h1>
+    <p class="fade-in delay-1"
+      data-fr="Nous concevons des solutions innovantes pour les entreprises et les institutions."
+      data-en="We build innovative solutions for businesses and institutions.">
+    </p>
+    <button class="cta-button fade-in delay-2"
+      data-fr="Voir nos projets"
+      data-en="View our projects">
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title fade-in" data-fr="À propos de nous" data-en="About us"></h2>
+      <div class="about-content fade-in delay-1">
+        <p
+          data-fr="Smart-X est une startup spécialisée dans le développement de solutions numériques, applications web et mobiles, intelligence artificielle et systèmes sécurisés. Fondée par Xavier Mombimbo, nous combinons créativité et expertise technique pour transformer vos défis en opportunités."
+          data-en="Smart-X is a startup specialized in digital solutions, web and mobile applications, artificial intelligence, and secure systems. Founded by Xavier Mombimbo, we combine creativity and technical expertise to turn your challenges into opportunities.">
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="container">
+      <h2 class="section-title fade-in" data-fr="Nos services" data-en="Our services"></h2>
+      <div class="cards">
+        <div class="card fade-in">
+          <div class="card-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3 data-fr="Développement Web" data-en="Web Development"></h3>
+          <p data-fr="Sites web professionnels et plateformes sur mesure avec les dernières technologies."
+             data-en="Professional websites and custom platforms with the latest technologies."></p>
+        </div>
+        <div class="card fade-in delay-1">
+          <div class="card-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 data-fr="Applications Mobiles" data-en="Mobile Applications"></h3>
+          <p data-fr="Applications Android et multiplateformes performantes et intuitives."
+             data-en="High-performance and intuitive Android and cross-platform applications."></p>
+        </div>
+        <div class="card fade-in delay-2">
+          <div class="card-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3 data-fr="IA & Solutions intelligentes" data-en="AI & Smart Solutions"></h3>
+          <p data-fr="Intelligence artificielle, biométrie et automatisation pour optimiser vos processus."
+             data-en="Artificial intelligence, biometrics and automation to optimize your processes."></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2 class="section-title fade-in" data-fr="Nos projets" data-en="Our projects"></h2>
+      
+      <div class="project fade-in">
+        <div class="project-image">
+          <img src="assets/munganga.png" alt="Munganga App">
+        </div>
+        <div class="project-content">
+          <h3>Munganga</h3>
+          <p
+            data-fr="Application mobile de santé permettant aux patients de trouver des médecins, obtenir des recommandations intelligentes et accéder aux services médicaux. Solution intégrée avec intelligence artificielle pour l'analyse des symptômes."
+            data-en="A mobile health application that helps patients find doctors, get intelligent recommendations and access medical services. Integrated solution with artificial intelligence for symptom analysis.">
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Mobile</span>
+            <span class="tech-tag">Santé</span>
+            <span class="tech-tag">Intelligence Artificielle</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="project fade-in delay-1">
+        <div class="project-image">
+          <div class="placeholder-image">
+            <i class="fas fa-rocket"></i>
+            <p data-fr="Projet en développement" data-en="Project in development"></p>
+          </div>
+        </div>
+        <div class="project-content">
+          <h3 data-fr="Solution Sécurisée" data-en="Secure Solution"></h3>
+          <p
+            data-fr="Nouvelle solution de sécurité innovante actuellement en phase de développement. Plus d'informations à venir."
+            data-en="New innovative security solution currently in development. More information coming soon.">
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Sécurité</span>
+            <span class="tech-tag">Innovation</span>
+            <span class="tech-tag">Confidential</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container compact-container">
+      <h2 class="section-title fade-in" data-fr="Contact" data-en="Contact"></h2>
+      
+      <div class="contact-compact fade-in">
+        <div class="contact-grid">
+          <div class="contact-item compact">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-fr="Email" data-en="Email"></h4>
+              <p>contact@smart-x.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-item compact">
+            <div class="contact-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <div class="contact-details">
+              <h4 data-fr="WhatsApp" data-en="WhatsApp"></h4>
+              <p>+243 820 125 176</p>
+            </div>
+          </div>
+          
+          <div class="contact-item compact">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-details">
+              <h4>GitHub</h4>
+              <p>XavierMombimbo</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-links-compact fade-in delay-1">
+          <a href="https://www.linkedin.com/in/XavierMombimbo" target="_blank" class="social-link-compact" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/XavierMombimbo" target="_blank" class="social-link-compact" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/XavierMombimbo" target="_blank" class="social-link-compact" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="developer-card-compact fade-in delay-2">
+        <div class="developer-avatar">
+          <i class="fas fa-user-tie"></i>
+        </div>
+        <div class="developer-info-compact">
+          <h4>Xavier Mombimbo</h4>
+          <p data-fr="Fondateur & Développeur Principal" data-en="Founder & Lead Developer"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Smart-X — <span data-fr="Tous droits réservés" data-en="All rights reserved"></span></p>
+    <div class="footer-links">
+      <a href="mailto:contact@smart-x.com" class="footer-link" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://wa.me/243820125176" target="_blank" class="footer-link" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/XavierMombimbo" target="_blank" class="footer-link" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://twitter.com/XavierMombimbo" target="_blank" class="footer-link" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/XavierMombimbo" target="_blank" class="footer-link" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/lang.js"></script>
+<script>
+  // Initialisation au chargement
+  document.addEventListener('DOMContentLoaded', function() {
+    // Définir la langue par défaut
+    if (typeof setLang === 'function') {
+      setLang('fr');
+    } else {
+      // Fallback si lang.js n'est pas chargé
+      function setLang(lang) {
+        document.querySelectorAll('[data-fr]').forEach(element => {
+          if (element.dataset[lang]) {
+            element.textContent = element.dataset[lang];
+          }
+        });
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+          btn.classList.toggle('active', btn.textContent.includes(lang.toUpperCase()));
+        });
+      }
+      window.setLang = setLang;
+    }
+    
+    // Animation au défilement
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+        }
+      });
+    }, observerOptions);
+    
+    // Observer les éléments avec la classe fade-in
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+    
+    // Gestion du clic sur le bouton CTA
+    const ctaButton = document.querySelector('.cta-button');
+    if (ctaButton) {
+      ctaButton.addEventListener('click', function() {
+        const projectsSection = document.querySelector('.projects');
+        if (projectsSection) {
+          projectsSection.scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+        }
+      });
+    }
+  });
+</script>
+</body>
+</html>

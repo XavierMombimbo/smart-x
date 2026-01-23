@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://xaviermombimbo.github.io/smart-x/sitemap.xml
